@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.input, .textarea {
+    outline: none;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+ header {
+     background: url('img/background.jpg.jpg') no-repeat;
+     background-color: #8FBC8F;
+     background-blend-mode: multiply;
+     opacity: .8;
+     background-size: cover;
+     height: 100vh;
+     width: 100vw;
+     position: relative;
+     text-align: center;
+ }
+
+ header .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ header .wrapper h1 {
+    color: #F0F8FF;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 40px;
+ }
+
+ header .wrapper img {
+     border-radius: 50%;
+     border: 7px solid #3cb371;
+     box-shadow: 0 28px 26px 0px rgba(0,0,0,.7);
+     width: 50%;
+     transition: transform .5s ease-out;
+     cursor: pointer;
+ }
+
+ header .wrapper img:hover {
+     transform: scale(1.1);
+ }
+
+ header .wrapper ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+ }
+
+ header .wrapper ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: seashell;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+header .wrapper ul li a:hover{
+    border-bottom: 4px solid black;
+}
+
+.tentang-saya {
+    background: #8FBC8F;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center ;
+}
+
+.tentang-saya .wrapper h2 {
+    text-shadow: 0 4px 0px white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid black;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom:  50px ;
+}
+
+.tentang-saya .wrapper p {
+    text-shadow: 0 4px 0px whitesmoke;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0 35px;
+    margin-bottom: 50px;
+}
+
+.tentang-saya .wrapper a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 30px;
+    border: 5px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.skill {
+    background: #44a36d;
+    color: white ;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.skill .wrapper {
+    width: 80%;
+}
+
+
+.skill  .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom:  40px ;
+}
+
+.skill .wrapper-skill {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.skill .wrapper-skill h5 {
+    text-transform: uppercase;
+    text-shadow: 0 4px o black;
+    font-size: 18px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+}
+
+.skill .wrapper-skill .background {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: white;
+}
+
+.skill .wrapper-skill .background .indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: #649cfc;
+    z-index: 2;
+}
+
+.indicator.html {
+    width: 50%;
+}
+
+.indicator.css {
+    width: 45%;
+}
+
+.indicator.microsoftpowerpoint {
+    width: 80%;
+}
+
+.indicator.microsoftword {
+    width: 80%;
+}
+
+.karya {
+    background: #8FBC8F;
+    color: black ;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.karya .wrapper {
+    padding: 50px;
+}
+
+.karya .wrapper h2 {
+    text-shadow: 0 4px 0px white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid black;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom:  40px ;
+}
+
+.karya .wrapper .wrapper-karya {
+    display: grid;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper-karya a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    text-shadow: 0 4px 0px white;
+    font-size: 20px;
+}
+
+
+
+.kontak {
+    background: #44a36d;
+    color: white ;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak .wrapper {
+    padding: 50px;
+}
+
+.kontak .wrapper h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom:  40px ;
+}
+
+.kontak .wrapper .wrapper-kontak {
+    display: grid;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper-kontak a {
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    text-shadow: 0 4px 0px black;
+    font-size: 20px;
+}
+
+footer {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 15px 0 ;
+}
+
